@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ body{
+    background-color: #eeeeee;
+ }
+
+/* cabeçalho */
+.cabeçalho{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #219ebc;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* conteudo principal*/
+.main-content{
+    margin: 0 auto;
+    min-height: 900px;
+    width: 80%;
+}
+.product-card{
+    margin: 20px;
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    padding: 2px;
+    background-color: #d4d4d4;
+    border-radius: 0px 0px 7.5px 7.5px;
+}
+.product-p{
+    margin: 3%;
+    font-size: 18px;
+    color: #292929;
+    /* os três elementos a seguir servem para fazer o texto que faltar espaço ser substituido por ... */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.img-books{
+    width: 100%;
+    height: 100%;
+}
+.product-name{
+    margin: 3%;
+    font-size: 30px;
+    font-weight: bold;
+    color:#023047;
+    /* os três elementos a seguir servem para fazer o texto que faltar espaço ser substituido por ... */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.btn-a{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+.btn{
+    background-color: #219ebc;
+    text-decoration: none;
+    color: #FFF;
+    margin: 3%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7.5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: #023047;
+}
+
+/* footer */
+.footer-index{
+    text-align: center;
+    background-color: #219ebc;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    color: #FFF;
+}
+.btn-contact{
+}
