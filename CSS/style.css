@@ -80,7 +80,7 @@
 }
 /* para tornar o site responsivo */
 /* conteúdo do main */
-@media (max-width: 700px){
+@media (max-width: 600px){
 
     .product-name{
         font-size: 22px;
